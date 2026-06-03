@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.signal {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
