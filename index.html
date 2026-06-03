@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Match Analysis Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Match Analysis Tool</h1>
+
+    <div class="card">
+      <h2>Live Ticks</h2>
+      <div id="ticks">Waiting...</div>
+    </div>
+
+    <div class="card">
+      <h2>Analysis</h2>
+      <p>Over (6–9): <span id="over">0</span>%</p>
+      <p>Under (0–5): <span id="under">0</span>%</p>
+    </div>
+
+    <div class="card signal" id="signal">
+      WAITING DATA...
+    </div>
+
+    <button onclick="start()">Start Simulation</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
